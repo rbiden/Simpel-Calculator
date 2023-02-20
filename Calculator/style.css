@@ -1,0 +1,84 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    background-color: rgb(249, 249, 241);
+}
+
+main {
+    background-color: rgb(42, 41, 41);
+    border-radius: 10px;
+    padding: 2rem;
+    border-top: solid 4px gray;
+    border-left: solid 4px gray;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.screen {
+    margin-block: 1rem;
+    padding: 0.5px;
+    text-align: right;
+    padding-right: 1rem;
+    background-color: rgb(67, 85, 67);
+    border-right: solid 3px gray;
+    border-bottom: solid 3px gray;
+}
+
+.answer {
+    height: 30px;
+}
+
+h1 {
+    color: white;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 71px);
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.operators {
+    background-color: rgb(69, 140, 190);
+    color: white;
+    padding-block: 0.5rem;
+    font-size: 20px;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 1rem;
+}
+
+button {
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0;
+    padding-block: 1rem;
+    border-top: solid 2px white;
+    border-left: solid 2px white;
+}
+
+button:active {
+    scale: .99;
+}
+
+button:nth-child(10) {
+    background-color: rgb(221, 82, 82);
+    font-size: 18px;
+    color: white;
+}
+
+.input button:last-child {
+    background-color: rgb(233, 178, 76);
+    font-size: 20px;
+    color: white;
+}
